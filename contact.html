@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css " href="css/style.css" />
+    <link rel="stylesheet" type="text/css " href="css/contact.css" />
+    <meta
+      name="description"
+      content="Traveling agency for cycling tours of eco-friendly alternatives. Travel eco-friendly"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+    />
+
+    
+
+
+    <title>Re-CYCLE</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav-container">
+        
+        <a href="index.html" class="logo"><h1>Re-Cycle Tours</h1> </a>
+        
+          
+        <button class="hamburger" id="hamburger">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-ul" id="nav-ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+   
+
+    <div id="form-container">
+      <div class="loader"></div> 
+        <h1> Contact us:</h1>
+        <h3> Get in touch if there is information regarding our travels you want to know more about.</h3>
+        
+       <form action="#">
+          <div id="message"></div> 
+        <div class="row">
+          <div class="col-25">
+            <label for="name">Name:</label>
+          </div>
+          <div class="col-75">
+             <input type="text" id="name" name="name" placeholder="Your full name..">
+          </div>
+        </div>
+         <div class="row">
+          
+          <div class="col-25">
+              <label for="mail">Mail:</label> 
+          </div>
+          <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Your e-mail..">
+          <div class="form-error" id="emailError">Please check if your email is correct.</div>
+            </div>
+         </div>
+         
+         <div class="row">
+           
+          <div class="col-25">
+              <label for="message">Message:</label>
+          </div>
+          <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Write youre message here.." style="height:140px"></textarea>
+           <div class="form-error" id="subjectError">Your message must contain minimum 5 letters to be a valid message.</div>     
+         </div>
+         <div class="row">
+
+          
+  
+   <button class="reset" type="submit" value="Submit">Submit</button>
+  </div>
+        </form>
+      </div>
+      <footer>
+      <div class="container">
+        <ul class="flex-row">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="tours.html">Tours</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <p>&copy; 2020 RecycleAS</p>
+      </div>
+    </footer>
+    <script src="components/contact.js"></script>
+    <script src="components/script.js"></script>
+    </body>
+    
+     
+  </div>
+</html>

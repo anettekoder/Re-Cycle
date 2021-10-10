@@ -1,0 +1,140 @@
+body {
+  background-image: url(Bilder/background1.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: white;
+  margin-bottom: 200px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  background: white;
+  padding: 50px;
+}
+#form-container > h1 {
+  padding-top: 150px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: left;
+  margin-top: 15px;
+  background: none;
+  color: black;
+  box-shadow: none;
+  /* border: olive 1px solid; */
+}
+
+.reset {
+  background-color: #93bc3f;
+  color: black;
+  border-radius: 4px;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  margin-top: 5px;
+  width: 200px;
+  height: 50px;
+}
+
+.reset:hover {
+  background-color: #93bc3f;
+}
+
+#form-container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+  font-size: 30px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 25px;
+}
+
+input[type="text"],
+textarea {
+  font-size: 18px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.form-error {
+  display: none;
+  font-size: 15px;
+  color: #ff0004;
+  padding-top: 8px;
+  padding-bottom: 10px;
+}
+
+/* Success message */
+.message {
+  background: green;
+  padding: 1rem;
+  color: white;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Responsive layout - less than 600px wide, make the "row" columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .form-container {
+    border-radius: 5px;
+    background-color: none;
+    padding: 20px;
+    padding-top: 100px;
+  }
+
+  label {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+}
+
+/* Responsive layout - less than 600px wide, make the "row" columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 320px) {
+  .form-container {
+    border-radius: 5px;
+    background-color: none;
+    padding: 20px;
+    padding-top: 100px;
+  }
+
+  input[type="text"],
+  textarea {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid black;
+    border-radius: 4px;
+    resize: vertical;
+  }
+}
