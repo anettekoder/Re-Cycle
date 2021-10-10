@@ -85,6 +85,9 @@ a:active {
 
 /* Main content */
 
+h2 {
+  font-size: 20px;
+}
 .content-main {
   display: flex;
   flex-direction: column;
@@ -266,25 +269,25 @@ label {
 
 /* Newsletter */
 form {
-  border: 3px solid #f1f1f1;
-  background: black;
-  color: white;
+  background: white;
+  color: black;
+  border: none;
 }
 
 .newsletterContainer {
-  padding: 20px;
+  padding: 10px;
 }
 
 .newsletterContainer > input[type="text"],
 input[type="submit"] {
-  color: white;
+  color: black;
   width: 50%;
   padding: 12px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid black;
   box-sizing: border-box;
-  background: black;
+  background: white;
   height: fit-content;
 }
 
