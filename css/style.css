@@ -246,6 +246,7 @@ button {
 
 button:hover {
   background-color: white;
+  border: black 1px solid;
   color: black;
 }
 
@@ -254,6 +255,8 @@ label {
   font-size: 20px;
   width: 100px;
   height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
   padding-top: 10px;
   text-align: center;
   background-color: #93bc3f;
@@ -329,7 +332,7 @@ footer {
 }
 
 .container > ul > li > a {
-  font-size: 25px;
+  font-size: 18px;
   color: white;
 }
 
